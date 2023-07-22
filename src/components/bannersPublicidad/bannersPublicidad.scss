@@ -1,0 +1,12 @@
+@import '../../base.scss';
+
+.banner-publicitario {
+    height: 10rem;
+    width: 100%;
+ }
+
+ @media (max-width: 768px) {
+    .banner-publicitario {
+      height: 30vw;
+    }
+  }

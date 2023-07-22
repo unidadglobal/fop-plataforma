@@ -1,0 +1,17 @@
+@import '../../base.scss';
+
+footer {
+   padding: 0.8rem 1rem;
+   background-color: $black-secondary;
+   width: 100%;
+   text-align: center;
+   left:0;
+   bottom:0;
+   right:0;
+}
+
+@media (max-width: $breakpoint-small) {
+   .footer {
+      padding: 0.6rem;
+   }
+}

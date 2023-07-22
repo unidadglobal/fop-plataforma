@@ -1,0 +1,46 @@
+.card:hover {
+  box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0.273) !important;
+  transition: all 0.7s linear;
+}
+
+.card-text {
+  padding: 0.3rem 0.3rem;
+  font-size: 1rem;
+  height: 80px; 
+  width:100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.card-title {
+  height: 60px; 
+  width:100%;
+  padding-left:0.5rem;
+  padding-right:0.5rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+
+.overflow {
+  overflow: hidden;
+}
+
+.overflow-ellipsis {
+  text-overflow: ellipsis;
+}
+
+.card-img-top {
+  transform: scale(1);
+  transition: all 0.2s ease-in-out;
+  height:250px;
+}
+
+.card-img-top:hover {
+  transform: scale(1.2);
+}
